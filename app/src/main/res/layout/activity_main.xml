@@ -1,0 +1,49 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundstyele1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:hint="Your Name name"
+        android:lines="1"
+        android:id="@+id/uname"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:lines="1"
+        android:hint="Friend Name"
+        android:textColorHint="@color/white"
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Your Friend's Nickname"
+        android:textColorHint="@color/white"
+        android:lines="1"
+        android:id="@+id/nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describe Your Friend"
+        android:lines="1"
+        android:textColorHint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonstyle1"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>
